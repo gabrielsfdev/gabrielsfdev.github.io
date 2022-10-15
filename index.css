@@ -1,1 +1,7 @@
-alt 
+.logo {
+    height: 25px;
+}
+#profileimg {
+    border-radius: 100px;
+    width: 200px;
+}
