@@ -1,0 +1,38 @@
+	body {
+	text-align: center;
+	}
+	.color {
+	margin: 3px;
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	border: 1px rgb(0, 0, 0) solid;
+	}
+	button {
+		display: inline-block;
+		margin: auto;
+		margin-top: 10px;
+	}
+	.pixel {
+		border: 1px black solid;
+		display: inline-block;
+		background-color: white;
+		height: 40px;
+		width: 40px;
+		margin-top: -4px;
+	}
+	#pixel-board {
+		margin-top: 20px;
+		display: inline-block;
+		/* display: grid;
+		grid-column: 1fr 2fr; */
+		text-align: center;
+		
+	}
+	#color-palette {
+		display: block;
+	}
+	/* #button {
+
+	} */
+	
