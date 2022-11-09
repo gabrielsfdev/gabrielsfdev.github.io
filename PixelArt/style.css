@@ -1,5 +1,7 @@
 body {
+	margin-right: 43%;
 	text-align: center;
+	margin-top: 8%;
 	}
 	.color {
 	margin: 3px;
@@ -30,4 +32,11 @@ body {
 	#color-palette {
 		display: block;
 	}
-	
+	body {
+		background-image: url(Taverna.gif);
+		background-size: cover;
+		
+	}
+	#title {
+		color: antiquewhite;
+	}
