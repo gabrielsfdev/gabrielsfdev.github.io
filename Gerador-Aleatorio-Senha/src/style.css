@@ -1,0 +1,34 @@
+body {
+    background-color: rgb(12, 60, 218);
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+main {
+    background-color: rgb(255, 255, 255, 0.1);
+    padding: 5%;
+    border-radius: 15px;
+
+}
+h2 {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: rgb(255, 255, 255);
+}
+#generator {
+    cursor: pointer;
+    background-color: #ae581f;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 18px;
+}
+#copy {
+    padding: 10px;
+    background-color: #64ae1f;
+    border: none;
+    border-radius: 10px;
+}
