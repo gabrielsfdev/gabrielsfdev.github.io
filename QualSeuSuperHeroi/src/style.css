@@ -1,0 +1,25 @@
+body {
+    background-color: rgba(153, 243, 213, 0.986);
+}
+main {
+    text-align: center;
+    margin: auto;
+    margin-top: 10vh;
+    
+}
+div {
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
+    justify-content: center;
+    flex-direction: column;
+    }
+    
+img {
+    display: flex;
+    flex-flow: row wrap;
+    
+}
+ button {
+    text-align: center;
+ }
