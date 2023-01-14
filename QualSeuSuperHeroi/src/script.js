@@ -6,7 +6,7 @@ const btn = document.querySelector('button');
 const heroName = document.querySelector('#heroName');
 
 btn.addEventListener('click', () => {
-  const numMax = 800;
+  const numMax = 780;
   const idNumber = Math.floor(Math.random() * numMax);
   fetch(`https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/id/${idNumber}.json`)
     .then((response) => response.json())
