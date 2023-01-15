@@ -36,11 +36,11 @@ surprise.addEventListener('click', () => {
     .then((winner) => {
       img.src = winner.file || winner.message;
     })
-		.catch((error) => {
-			Swal.fire(
-				'Algo de errado não está certo',
-				`Não conseguimos decidir :/ <br> Nos dê um tempo para pensar e tente novamente`,
-				'question'
-			)
-		})
+    .catch(() => {
+      Swal.fire(
+        'Algo de errado não está certo',
+        'Não conseguimos decidir :/ <br> Nos dê um tempo para pensar e tente novamente',
+        'question',
+      );
+    });
 });
