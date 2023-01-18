@@ -18,7 +18,7 @@ const randomNumber = (max) => {
 }
 
 resultBtn.addEventListener('click', () => {
-    if (list) list.remove()
+    list.remove()
     const dType = diceType.value
     const dQtd = diceQtd.value
     let total = 0
