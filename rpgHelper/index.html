@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <section>
+            <label for="diceQtd">Quantos dados</label>
+            <select name="diceQtd" id="diceQtd"></select>
+            <label for="diceType">Tipo do dado</label>
+            <select name="diceType" id="diceType">
+                <option value="4">d4</option>
+                <option value="6">d6</option>
+                <option value="8">d8</option>
+                <option value="10">d10</option>
+                <option value="12">d12</option>
+                <option value="20">d20</option>
+                <option value="100">d100</option>
+            </select>
+            <button id="resultBtn">Gerar</button>
+        </section>
+        <ul id="result"></ul>
+    </main>
+    <script src="./script.js"></script>
+</body>
+</html>
